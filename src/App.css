@@ -1,0 +1,212 @@
+button {
+    cursor: pointer;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s all;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+input {
+    cursor: pointer;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s all;
+}
+
+input:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+input:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+    outline: 0;
+}
+
+.box-action {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+}
+
+hr {
+    width: 100%;
+}
+
+.add-item {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.add-item input {
+    height: 40px;
+    margin: 2px;
+    border-radius: 15px;
+    width: 80%;
+    padding-left: 20px;
+}
+
+.add-item input:hover[placeholder='添加项目'] {
+    font-size: 20px;
+}
+
+.add-item input:focus[placeholder='添加项目'] {
+    font-size: 20px;
+}
+
+.react-datepicker-wrapper div input {
+    width: 90%;
+}
+
+.react-datepicker-wrapper div {
+    display: flex;
+    justify-content: center;
+}
+
+.add-item button {
+    width: 10%;
+    height: 100%;
+    margin: 2px;
+    border-radius: 15px;
+}
+
+.add-item button svg {
+    width: 50%;
+    height: 50%;
+}
+
+.clear-button {
+    width: 10%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.clear-button svg {
+    width: 30%;
+    height: 100%;
+}
+
+.box-title {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s all;
+}
+
+.item:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+
+    align-items: center;
+}
+
+.del-button {
+    width: 5%;
+    border-radius: 15px;
+}
+
+.del-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.del-button svg {
+    height: 70%;
+    width: 70%;
+}
+
+.check-circle {
+    width: 5%;
+    border-radius: 15px;
+    display: flex;
+}
+
+.check-circle svg {
+    height: 5%;
+}
+
+.checked {
+    background-color: skyblue;
+}
+
+.checked:hover {
+    background-color: aqua;
+}
+
+.unchecked {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.unchecked:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    width: 95%;
+}
+
+.item-title {
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.date {
+    font-size: 10px;
+}
+
+.react-datepicker__input-container input {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    align-self: flex-end;
+    font-size: 10px;
+    align-items: center;
+}
+
+.info img {
+    width: 15px;
+}
+
+.no-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    font-size: 50px;
+}
