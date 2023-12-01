@@ -101,7 +101,7 @@ hr {
 }
 
 .clear-button svg {
-    width: 30%;
+    width: 30px;
     height: 100%;
 }
 
@@ -115,7 +115,7 @@ hr {
     display: flex;
     flex-direction: row;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 15px;
     border: 2px;
     border-color: black;
@@ -134,12 +134,11 @@ hr {
     display: flex;
     flex-direction: row;
     width: 93%;
-
     align-items: center;
 }
 
 .del-button {
-    width: 5%;
+    width: 40px;
     border-radius: 15px;
 }
 
@@ -148,8 +147,8 @@ hr {
 }
 
 .del-button svg {
-    height: 70%;
-    width: 70%;
+    height: 100%;
+    width: 20px;
 }
 
 .check-circle {
@@ -181,7 +180,7 @@ hr {
 }
 
 .content {
-    width: 95%;
+    width: 85%;
 }
 
 .item-title {
